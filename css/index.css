@@ -75,3 +75,9 @@ body {
     border-color: black;
     text-align: center;
 }
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
