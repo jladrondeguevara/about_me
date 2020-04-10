@@ -1,0 +1,77 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bangers', cursive;
+}
+h1 {
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-size: 220%;
+}
+h2 {
+    font-size: 140%;
+}
+h3 {
+    font-size: 110%;
+    text-decoration: underline ;
+}
+#profile_pic {
+    width: 20%;
+    height: 20%;
+}
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+body {
+    margin: 5% 3% 5% 3%;
+    border-style: solid;
+    border-width: .35em;
+    border-color: red;
+    padding: 3%;
+}
+
+.intro_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-style: double;
+    border-color: black;
+    border-width: .35em;
+    padding-bottom: 2%;
+}
+
+.bio_block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
